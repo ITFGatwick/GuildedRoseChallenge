@@ -11,7 +11,7 @@ We encorage you to make new classes, methods or even add tests to cover the feat
 The main focus of your attention should be on the Shop.cs and the `UpdateQuality()` method.
 
 Once you have refactored the code you can add this new feature if you like
-- "Conjured" items degrade in Quality twice as fast as normal items
+- Bakery items degrade in Quality twice as fast as normal items
      
 
 **Bonus points**
@@ -30,10 +30,10 @@ Items have the following values:
 Implemented Features:
 - Once the sell by date has passed, Quality degrades twice as fast								
 - The Quality of an item is never negative														
-- "Aged Brie" actually increases in Quality the older it gets									
+- "Single Malt Whisky" actually increases in Quality the older it gets									
 - The Quality of an item is never more than 50													
-- "Sulfuras", being a legendary item, never has to be sold or decreases in Quality				
-- "Backstage passes", like aged brie, increases in Quality as it's SellIn value approaches;		
+- "Gold", being a legendary item, never has to be sold or decreases in Quality				
+- "VIP tickets to Glastonbury", like Single Malt Whisky, increases in Quality as it's SellIn value approaches;		
 	- Quality increases by 2 when there are 10 days or less										
 	- Quality increases by 3 when there are 5 days or less										
 	- Quality drops to 0 after the concert														
